@@ -1,7 +1,7 @@
 # Instructions for the assignment
 1. Clone this repository on your machine.
 1. Use your IDE of choice to complete the assignment.
-1. When you are finished with the solution and have pushed it to the repo, [you can submit the assignment here]({{submission_link}}).
+1. When you are finished with the solution and have pushed it to the repo, [you can submit the assignment here](https://app.snapcode.review/submission_links/6eb1b437-71c3-4806-a714-2dcd0e9ca446).
 
 # About the task
 
