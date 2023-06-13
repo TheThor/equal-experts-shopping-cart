@@ -80,3 +80,8 @@ The below is a sample with the correct values you can use to confirm your calcul
 * Subtotal = 15.02
 * Tax = 1.88
 * Total = 16.90
+
+### How to validate the Scenario
+* Navigate into EqualExpertsShoppingCartIntegrationTests/Services/CartServiceIntegrationTests.cs
+* Search for the test AddProductToCart_EEScenario_AddsProductToCartAndPrintsState()
+* Check the output to see if it matches the Results section just above this
