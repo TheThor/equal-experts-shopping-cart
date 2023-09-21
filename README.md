@@ -1,3 +1,18 @@
+# Notes from me
+This test was done for Equal Experts. They weren't happy about the tests, but they do respect the the behavioural aspects of TDD. All the tests were done with great care. It's very loose from implementation details. 
+
+I do think that in this kind of project, Unit Testing might not be suitable, though. I do think Integration Testing would be the only requirement, but I still did Unit and Integration to differentiate both. 
+
+I've used the standard MSTest framework, which is not the standard for me, but it sufficed for the requirements. I've used Moq, and I haven't update myself on the current status of the [drama](https://dev.to/pbouillon/the-moq-gate-you-either-die-a-hero-8).
+
+I didn't concern myself with using dotnet as it should (like injecting the HTTP Factory for the requests the proper way) because this was supposed to be a very basic module of code.
+
+I've tried to create rich domain models, and didn't went overhead with getting validation done in a more generic way. I don't think it was needed as base example.
+
+The way to check the functionality is to go to the bottom of the page. For now, the EE github API URL works (as of the date of this push) but I can probably replace it in the future with my own static json docs (saved in API JSONs folder for this commit).
+
+If you have questions, feel free to contact me.
+
 # Instructions for the assignment
 1. Clone this repository on your machine.
 1. Use your IDE of choice to complete the assignment.
